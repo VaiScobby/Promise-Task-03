@@ -1,0 +1,48 @@
+.loader {
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid #3498db; 
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 1s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.row {
+  row-gap: 20px;
+}
+
+h1{
+  background: linear-gradient(90deg,darkblue,#2da2ea,#1e10ad);
+  color:#f3f3f3;
+  text-shadow:0px 0px 10px #f3f3f3;
+}
+
+.card {
+  text-align: center;
+  justify-content: center;
+  background: #172197;
+  padding: 10px;
+}
+
+.card-header{
+  background-color: aquamarine;
+}
+
+p:hover{
+  transform: scale(1.2);
+}
+
+.card-text{
+  font-size: 1.5em;
+  color: aquamarine
+ 
+}
